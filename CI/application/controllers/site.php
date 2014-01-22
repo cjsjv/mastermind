@@ -59,8 +59,10 @@ class Site extends CI_Controller {
 	
 	function logout(){
 	
-		
+		$this->session->unset_userdata('logged_in');
+		$this->session->unset_userdata('username');
 	
+		redirect('/site/','refresh');
 	
 	}
 
