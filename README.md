@@ -1,1 +1,1 @@
-Test repo for mastermind group
+Repository for mastermind group
